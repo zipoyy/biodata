@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Koleksi Foto</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="Shortcut Icon" href="gambar/gambar.jpg" type="image/x-jpg" />
+    <style>
+        body {
+            background: #181824;
+            color: #f1f1f1;
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 48px auto;
+            background: #232336;
+            border-radius: 16px;
+            box-shadow: 0 2px 16px #0002;
+            padding: 32px 24px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 16px;
+            color: #ffd700;
+            letter-spacing: 2px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 24px;
+        }
+        td {
+            padding: 16px 10px;
+            vertical-align: middle;
+            font-size: 1em;
+            color: #f1f1f1;
+        }
+        tr {
+            background: #232336;
+        }
+        tr:nth-child(even) {
+            background: #282840;
+        }
+        .img-cell img {
+            border-radius: 12px;
+            border: 2px solid #444;
+            box-shadow: 0 2px 8px #0003;
+        }
+        .caption {
+            color: #ffd700;
+            font-weight: 600;
+            font-size: 1.05em;
+            text-align: center;
+            padding-top: 8px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 16px;
+            text-align: center;
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        .back-link:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Foto-foto Koleksi</h2>
+        <hr>
+        <table>
+            <tr>
+                <td class="img-cell" align="center"><img src="gambar/jipoy.jpeg" width="300" height="200" alt="Zipoy"></td>
+                <td class="img-cell" align="center"><img src="gambar/home.jpg" width="300" height="200" alt="Rumah Impian"></td>
+            </tr>
+            <tr>
+                <td class="caption">Zipoy</td>
+                <td class="caption">Rumah Impian</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td class="img-cell" align="center"><img src="gambar/bub.jpeg" width="300" height="200" alt="bub jipoy"></td>
+                <td class="img-cell" align="center"><img src="gambar/masker.jpeg" width="300" height="200" alt="Maskeran"></td>
+            </tr>
+            <tr>
+                <td class="caption">bub jipoy</td>
+                <td class="caption">Maskeran</td>
+            </tr>
+        </table>
+        <div style="text-align:center;">
+            <a class="back-link" href="index.html">Kembali ke awal</a>
+        </div>
+    </div>
+</body>
+</html>
